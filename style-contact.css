@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(95, 240, 250);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-form{
+  position: relative;
+  margin: auto;
+  width: 400px;  
+  text-align: center;
+  margin-top: 50px;
+}
+h1{
+    font-family: 'Roboto', cursive;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.textb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+
+}  
+.textb label{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14pxs;
+    color: white;
+}
+.textb input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+.btn{
+    display: block;
+    padding: 14px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+   
+}
+.full{
+    position: relative;
+    width: auto;  
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill,minmax(26px,1fn));
+    grid-template-rows: auto;
+    grid-gap: 0 40px;
+  
+  }
+  .full .box{
+      margin-top: 30px;
+      padding-right: 20px;
+      padding-left: 20px;
+      position: relative;
+      height: auto;
+      background:rgba(172, 58, 5, 0.692);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgb(204, 243, 160);
+  }
+  .full .box:before{
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      background-color: #fff;
+      transform: skew(2deg,2deg);
+      z-index: -1;
+      background:linear-gradient(315deg,#04e7e7,#2008fd);
+      
+  
+  }
